@@ -140,7 +140,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Group", url="t.mE"),  InlineKeyboardButton(text="Channel", url="https://t.me/close_chapters")]
+                    [[InlineKeyboardButton(text="Group", url="t.mE"),  InlineKeyboardButton(text="Channel", url="https://t.me/close_chapters") ]]))
 
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
