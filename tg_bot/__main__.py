@@ -140,7 +140,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Group", url="https://t.me/Movie_loverz_group"),  InlineKeyboardButton(text="Channel", url="https://t.me/joinchat/tDQy5D3xUiZhYjE1") ]]))
+                    [[InlineKeyboardButton(text="Group", url="https://t.me/Movie_loverz_group"),  InlineKeyboardButton(text="Channel", url="https://t.me/closechapters2_0") ]]))
 
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
